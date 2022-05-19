@@ -1,0 +1,255 @@
+@import url(../fonts/stylesheet.css);
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  margin: 0 0px;
+  font-size: 12px;
+  font-family: "PT Serif", serif; }
+
+ul, ol {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  color: #000;
+  text-decoration: none; }
+
+a:hover {
+  color: #ebcf58; }
+
+img {
+  width: 100%; }
+
+figure {
+  margin: 0; }
+
+header {
+  width: 100%;
+  max-width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #FFF;
+  z-index: 10000;
+  border-bottom: 3px solid #000;
+  padding: 20px; }
+  header.row {
+    margin: 0; }
+  header a {
+    text-decoration: none; }
+  header .site_logo {
+    padding: 0; }
+    header .site_logo h1 {
+      margin: 0;
+      font-family: "PT Sans", sans-serif;
+      font-weight: bold;
+      font-size: 32px;
+      text-transform: uppercase;
+      letter-spacing: 2px; }
+    header .site_logo a {
+      color: #000; }
+  header .menu_btn {
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    top: 28px;
+    right: 10px;
+    margin: 0px 50px;
+    cursor: pointer;
+    height: 24px; }
+    header .menu_btn:hover span {
+      background: #ebcf58; }
+    header .menu_btn span {
+      display: block;
+      background: #000;
+      height: 4px;
+      width: 35px;
+      position: absolute;
+      -webkit-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+    header .menu_btn span:nth-child(1) {
+      top: 0px; }
+    header .menu_btn span:nth-child(2) {
+      top: 10px; }
+    header .menu_btn span:nth-child(3) {
+      top: 20px; }
+  header nav {
+    width: 100%;
+    background: #FFF;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease; }
+    header nav .main-nav_first-level {
+      text-transform: uppercase;
+      font-size: 20px;
+      font-family: "PT Sans", sans-serif;
+      padding: 20px;
+      font-weight: bold;
+      letter-spacing: 1px; }
+      header nav .main-nav_first-level li {
+        margin-right: 20px;
+        margin-bottom: 10px; }
+        header nav .main-nav_first-level li a {
+          color: #000; }
+        header nav .main-nav_first-level li a:hover {
+          color: #ebcf58; }
+  header #toggle-menu:checked ~ nav {
+    right: 0;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease; }
+  header #toggle-menu + label {
+    width: 100%;
+    text-align: right; }
+  header #toggle-menu .span-nochecked, header #toggle-menu .span-checked {
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer; }
+  header #toggle-menu + label .span-nochecked {
+    display: block;
+    cursor: pointer; }
+  header #toggle-menu + label .span-checked {
+    display: none;
+    cursor: pointer; }
+  header #toggle-menu:checked + label .span-nochecked {
+    display: none; }
+  header #toggle-menu:checked + label .span-checked {
+    display: block; }
+    header #toggle-menu:checked + label .span-checked span:nth-child(1) {
+      -webkit-transform: rotatez(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotatez(45deg);
+      -webkit-transform-origin: 0%;
+      left: 2px; }
+    header #toggle-menu:checked + label .span-checked span:nth-child(2) {
+      opacity: 0; }
+    header #toggle-menu:checked + label .span-checked span:nth-child(3) {
+      -webkit-transform: rotatez(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotatez(-45deg);
+      -webkit-transform-origin: 15%; }
+
+@media only screen and (min-width: 64em) {
+  header {
+    padding: 15px; }
+    header .site_logo h1 {
+      font-size: 45px;
+      text-align: center; }
+    header nav .main-nav_first-level {
+      font-size: 25px;
+      padding: 33px; }
+      header nav .main-nav_first-level li {
+        letter-spacing: 2px;
+        margin: 0; } }
+
+.sidebar {
+  margin-bottom: 40px; }
+  .sidebar ul li {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-bottom: 5px; }
+
+.articles-list .filters {
+  margin-top: 10px; }
+  .articles-list .filters ul {
+    padding: 0;
+    margin: 0; }
+    .articles-list .filters ul li {
+      font-family: "PT Sans", sans-serif;
+      font-size: 13px;
+      text-transform: uppercase;
+      margin-right: 5px;
+      margin-bottom: 0; }
+
+.articles-list h2 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+  line-height: 1.1; }
+
+@media only screen and (min-width: 64em) {
+  .sidebar ul li {
+    font-size: 15px; } }
+
+.article_sidebar {
+  padding: 0; }
+
+.author {
+  font-family: "PT Sans", sans-serif;
+  font-size: 13px; }
+
+.article {
+  padding: 0; }
+  .article h1 {
+    font-family: "PT Sans", sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.1; }
+  .article .introduction {
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold; }
+  .article h2 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 40px; }
+  .article .credits {
+    margin-top: 40px; }
+    .article .credits p {
+      font-size: 12px; }
+
+@media only screen and (min-width: 64em) {
+  .article h1 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 70px; }
+  .article h2 {
+    font-size: 25px; }
+  .article .credits p {
+    font-size: 15px; } }
+
+.show-for-small-only {
+  display: block; }
+
+.hide-for-small-only {
+  display: none; }
+
+main {
+  padding: 20px;
+  padding-top: 120px; }
+  main.row {
+    margin: 0; }
+  main p {
+    font-size: 16px; }
+
+@media only screen and (min-width: 64em) {
+  .show-for-small-only {
+    display: none !important; }
+  .hide-for-small-only {
+    display: block !important; }
+  main {
+    padding: 25px;
+    padding-top: 120px; }
+    main p {
+      font-size: 20px; } }

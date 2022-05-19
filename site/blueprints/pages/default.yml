@@ -1,0 +1,58 @@
+title: Page
+preset: page
+pages: false
+
+fields:
+  mybuilder:
+    label: Page Builder
+    type: builder
+    columns: 1 # Optional. If set to 2 or more, the builder blocks will be placed in a grid.
+    fieldsets:
+      bodytext:
+        name: Text
+        label: Text — {{title}}
+        preview:
+          snippet: blocks/bodytext
+        defaultView: preview 
+        fields:
+          title: 
+            label: Section title
+            type: text
+          text:
+            label: Text
+            type: textarea
+      imagesgallery:
+        name: Image gallery
+        label: Image gallery
+        preview:
+          snippet: blocks/imagesgallery
+        defaultView: preview 
+        fields:
+          selectimages:
+            label: Images 
+            type: files
+            query: page.images
+      list:
+        name: Liste à déplier
+        label: Liste à déplier - {{title}} 
+        preview:
+          snippet: blocks/list
+        fields:
+          title: 
+            label: Titre de la section
+            type: text
+          elementlist: # The Builder Field can even be nested!
+            type: builder
+            label: Élément de la liste
+            columns: 1
+            fieldsets:
+              element:
+                label: — {{title}} 
+                fields:
+                  title:
+                    label: Title
+                    type: text
+                  text:
+                    label: Texte
+                    type: textarea
+

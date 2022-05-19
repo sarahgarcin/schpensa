@@ -1,0 +1,139 @@
+// -------------- MOBILE-FIRST HEADER --------------
+
+header{
+	width: 100%;
+	max-width: 100%;
+	position: fixed;
+	left:0;
+	top:0; 
+	background: #FFF;
+	z-index: 10000; 
+	border-bottom : 3px solid #000;
+	padding: $pageMarginMobile;
+	&.row{margin:0;}
+	a{text-decoration:none;}
+	.site_logo{ 
+		padding:0;
+		h1{
+			margin:0; 
+			font-family: $titleFont; 
+			font-weight: bold;
+			font-size: $siteTitleMobile;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+		a{color: #000;}
+	}
+	.menu_btn{
+		display:block;
+		position:fixed;
+		z-index: 1000;
+		top: 28px;
+		right: 10px;
+		margin:0px 50px;
+		cursor:pointer;
+		height:24px;
+		&:hover{ span{background: $mainColor;} }
+		span {
+		  display:block;
+		  background:#000;
+		  height:4px;
+		  width:35px;
+		  position:absolute;
+		  transition:all 0.5s ease;
+		}
+		span:nth-child(1){top:0px;}
+		span:nth-child(2){top:10px;}
+		span:nth-child(3){top:20px;}
+	}
+	nav{
+  	width:100%;
+  	background: #FFF;
+	  text-align: right;
+	  position: absolute;
+	  top:0;
+	  right: -100%;
+	  height:100%;
+	  transition: all .5s ease;
+	  .main-nav_first-level{
+		  text-transform: uppercase;
+		  font-size: $menuMobile;
+		  font-family : $titleFont;
+		  padding: $pageMarginMobile;
+		  font-weight: bold;
+		  letter-spacing: 1px;
+		  li{
+		  	margin-right: $marginNormal;
+		  	margin-bottom: $marginSmall;
+		  	a{color: #000;}
+		  	a:hover{ color: $mainColor; }
+		  }
+		}
+	}
+	#toggle-menu:checked ~ nav {
+		right: 0;
+	  transition: all .5s ease;
+	}
+
+	#toggle-menu + label{
+	  width: 100%;
+	  text-align: right;
+	}
+
+
+	#toggle-menu .span-nochecked, #toggle-menu .span-checked{
+	  transition: all 0.5s ease;
+	  cursor: pointer;
+
+	}
+
+	#toggle-menu + label .span-nochecked { display: block; cursor: pointer;}
+	#toggle-menu + label .span-checked { display: none; cursor: pointer;}
+
+	#toggle-menu:checked + label .span-nochecked { display: none; }
+	// #toggle-menu:checked + label .span-checked { display: block; }
+
+	#toggle-menu:checked + label .span-checked { 
+		display: block;
+		span:nth-child(1){
+			transform:rotatez(45deg);
+			-webkit-transform-origin:0%;
+			left:2px
+		}
+		span:nth-child(2){opacity:0;}
+		span:nth-child(3){
+			transform:rotatez(-45deg);
+			-webkit-transform-origin: 15%;
+		}
+	}	
+
+}
+
+
+// -------------- DESKTOP HEADER --------------
+@media only screen and (min-width: 64em){
+	header{
+		padding: 15px;
+		.site_logo{
+			h1{font-size: $siteTitle; text-align: center;}
+			
+		}
+		nav{
+		  .main-nav_first-level{
+			  font-size: $menu;
+			  padding: 33px;
+			  li{
+			  	letter-spacing: 2px;
+			  	margin: 0;
+
+			  }
+			}
+		}
+	}
+}
+
+
+
+
+
+

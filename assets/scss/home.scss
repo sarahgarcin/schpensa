@@ -1,0 +1,54 @@
+// -------------- MOBILE-FIRST HOME --------------
+.sidebar{
+	margin-bottom: $marginBig;
+	ul{
+		li{
+			font-family: $titleFont;
+			font-size : $filtersMobile;
+			text-transform: uppercase;
+			margin-right: $marginNormal;
+			margin-bottom: 5px;
+		}
+	}
+}
+
+.articles-list{
+	.filters{
+		margin-top: $marginSmall;
+		ul{
+			padding:0;
+			margin:0;
+			li{
+				font-family: $titleFont;
+				font-size : $filtersMobile;
+				text-transform: uppercase;
+				margin-right: 5px;
+				margin-bottom: 0;
+			}
+		}
+	}
+	h2{
+		font-family: $titleFont;
+		font-weight: bold;
+		font-size: $menuMobile;
+		margin:0;
+		line-height: 1.1;
+	}
+}
+
+// -------------- DESKTOP HOME --------------
+@media only screen and (min-width: 64em){
+	.sidebar{
+		ul{
+			li{
+				font-size : $filters;
+			}
+		}
+	}
+}
+
+
+
+
+
+

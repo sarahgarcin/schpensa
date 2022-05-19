@@ -1,0 +1,54 @@
+// -------------- MOBILE-FIRST ARTCLE --------------
+.article_sidebar{padding:0}
+
+.author{
+	font-family: $titleFont;
+	font-size: $filtersMobile;
+}
+
+.article{
+	padding:0;
+	h1{
+		font-family: $titleFont;
+		font-size: $articleTitleMobile;
+		font-weight: bold;
+		text-transform: uppercase;
+		line-height:1.1;
+	}
+	.introduction{
+		font-family: $titleFont;
+		font-weight: bold;
+	}
+	h2{
+		font-family: $titleFont;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: $menuMobile;
+		margin-bottom: $marginSmall;
+		margin-top: $marginBig;
+	}
+	.credits{
+		margin-top: $marginBig;
+		p{font-size: $smallTextMobile;}
+	}
+}
+
+
+// -------------- DESKTOP ARTICLE --------------
+@media only screen and (min-width: 64em){
+	.article{
+		h1{
+			margin-top:0;
+			text-align: center;
+			font-size: $articleTitle;
+		}
+		h2{
+			font-size: $menu;
+		}
+		.credits{
+			p{font-size: $smallText;}
+		}
+	}
+
+
+}

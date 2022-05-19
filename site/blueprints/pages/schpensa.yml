@@ -1,0 +1,32 @@
+title: Schenpsa
+
+columns:
+  left:
+    width: 2/3
+    sections:
+      drafts:
+        headline: Drafts
+        type: pages
+        status: draft
+        templates: article
+      published:
+        headline: Published
+        type: pages
+        status: listed
+        templates: article
+  right:
+    width: 1/3
+    sections:
+      content:
+        type: fields
+        fields:
+          tags: 
+            label: Filters
+            type: structure
+            fields: 
+              title: 
+                label: Filter's name
+                type: text
+
+
+

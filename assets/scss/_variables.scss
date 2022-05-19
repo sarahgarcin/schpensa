@@ -1,0 +1,40 @@
+@import "../fonts/stylesheet.css";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+// Margin variables
+$marginNormal: 20px;  
+$marginBig: $marginNormal *2;  
+$marginSmall: $marginNormal/2;
+$pageMargin: 25px;
+$pageMarginMobile: 20px;
+
+// Colors
+$mainColor: rgb(235, 207, 88); 
+
+// Fonts
+$titleFont: "PT Sans", sans-serif;;
+$font : "PT Serif", serif;
+
+// FontSize
+$siteTitle : 45px;
+$siteTitleMobile : 32px;
+$menu : 25px;
+$menuMobile : 20px;
+$filters : 15px;
+$filtersMobile : 13px;
+$articleTitle : 70px;
+$articleTitleMobile : 45px;
+$text: 20px;
+$textMobile: 16px;
+$smallText: 15px;
+$smallTextMobile: 12px;
+ 
+// Mixins
+@mixin center{
+	display: block;
+	position: relative; 
+	top: 50%;
+	transform: translateY(-50%);
+}
+

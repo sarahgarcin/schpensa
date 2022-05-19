@@ -1,0 +1,27 @@
+title: Article
+preset: page
+pages: false
+
+fields:
+  cover:
+    label: Image cover
+    type: files
+  author:
+    label: Author
+    type: text
+  introduction:
+    label: Introduction
+    type: markdown
+  text:
+    label: Texte
+    type: markdown
+  credits:
+    label: Credits
+    type: markdown
+  filters:
+    label: Filter(s)
+    type: checkboxes
+    options: query
+    query: page.parent.tags.toStructure
+
+
