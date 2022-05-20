@@ -8,6 +8,11 @@
 			text-transform: uppercase;
 			margin-right: $marginNormal;
 			margin-bottom: 5px;
+			&.active{
+				background: $mainColor;
+				cursor: default;
+				a:hover{color: #000;}
+			}
 		}
 	}
 }
@@ -24,6 +29,11 @@
 				text-transform: uppercase;
 				margin-right: 5px;
 				margin-bottom: 0;
+				&.active{
+					background: $mainColor;
+					cursor: default;
+					a:hover{color: #000;}
+				}
 			}
 		}
 	}
@@ -33,7 +43,24 @@
 		font-size: $menuMobile;
 		margin:0;
 		line-height: 1.1;
+		text-transform: capitalize;
 	}
+	.article-cover{
+		a{height: 100%; display:block;}
+		img{
+			vertical-align: middle;
+		}
+	}
+	.article-cover:hover{
+		background: $mainColor;
+		img{
+			mix-blend-mode: multiply;
+			filter: grayscale(100%);
+  		// filter: grayscale(100%);
+  		// opacity: 1;
+		}
+	}
+
 }
 
 // -------------- DESKTOP HOME --------------
@@ -43,6 +70,18 @@
 			li{
 				font-size : $filters;
 			}
+		}
+	}
+	.articles-list{
+		.filters{
+			ul{
+				li{
+					font-size : $filters;
+				}
+			}
+		}
+		h2{
+			font-size: $menu;
 		}
 	}
 }

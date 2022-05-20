@@ -29,11 +29,16 @@ header{
 		position:fixed;
 		z-index: 1000;
 		top: 28px;
-		right: 10px;
-		margin:0px 50px;
+		right: $pageMarginMobile;
+		margin:0px;
 		cursor:pointer;
 		height:24px;
-		&:hover{ span{background: $mainColor;} }
+		width:35px;
+		&:hover{ background: $mainColor;}
+		&.span-checked{
+			height:28px;
+			width: 28px;
+		}
 		span {
 		  display:block;
 		  background:#000;
@@ -64,9 +69,10 @@ header{
 		  letter-spacing: 1px;
 		  li{
 		  	margin-right: $marginNormal;
-		  	margin-bottom: $marginSmall;
+		  	margin-bottom: 3px;
 		  	a{color: #000;}
-		  	a:hover{ color: $mainColor; }
+		  	a:hover{ font-style: italic; }
+		  	&.active{font-style: italic; background: $mainColor;}
 		  }
 		}
 	}
@@ -117,6 +123,10 @@ header{
 		.site_logo{
 			h1{font-size: $siteTitle; text-align: center;}
 			
+		}
+		.menu_btn{
+			right: $pageMargin;
+			top: 33px;
 		}
 		nav{
 		  .main-nav_first-level{

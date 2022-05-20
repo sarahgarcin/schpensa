@@ -1,0 +1,17 @@
+title: Easter Potato
+preset: page
+pages: false
+
+
+fields:
+  stories: 
+    label: Easter Potato content
+    type: structure
+    fields: 
+      title: 
+        label: Title
+        type: text
+      text: 
+        label: Text
+        type: textarea
+

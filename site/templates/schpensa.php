@@ -6,32 +6,51 @@
 	<main>
 	<section class="sidebar col-xs-12">
 		<ul class="row center-md">
+			<li class="all <?= e(param('tag') == '', 'active') ?>">
+				<a href="<?= $page->url() ?>">
+					All
+				</a>
+			</li>
 			<?php foreach($page->tags()->toStructure() as $tag):?>
-				<li data-tag="<?= Str::slug($tag->title())?>" data-title="<?= $tag->text() ?>"><?= $tag->title() ?></li>
-				<?php $tags[] = Str::slug($tag->title()); ?>
+				<?php 
+				$slugTag = Str::slug($tag->title());
+				$tags[] = $slugTag; ?>
+				<li class="<?= e($slugTag == param('tag'), 'active') ?>">
+					<a href="<?= url('schpensa', ['params' => ['tag' => $slugTag]]) ?>">
+						<?= $tag->title() ?>
+					</a>
+				</li>
+				
 			<?php endforeach?>
 		</ul>
 	</section>
 	<section class="articles-list">
 		<ul class="articles row">
-			<?php foreach($page->children()->listed()->shuffle() as $article):?>
-				<li class="col-xs-6 col-md-3">
-					<a href="<?= $article->url() ?>" title="<?= $article->title() ?>">
+			<?php $articles = $page->children()->listed()->shuffle();
+			  // add the tag filter
+			  if($tag = param('tag')) {
+			    $articles = $articles->filterBy('filters', array_search($tag, $tags), ',');
+			  }
+			?>
+
+			<?php foreach($articles as $article):?>
+				<li class="col-xs-6 col-sm-4 col-md-3">
 						<div class="article-cover">
 							<?php $cover = $article->cover()->toFile()?>
-							<?= $cover->thumb() ?>
+							<a href="<?= $article->url() ?>" title="<?= $article->title() ?>"><?= $cover->thumb() ?></a>
 						</div>
 						<div class="filters">
 							<ul class="row">
 							  <?php foreach ($article->filters()->split() as $filter): ?>
-							  <li><?= $tags[$filter] ?></li>
+							  <li class="<?= e($tags[$filter] == param('tag'), 'active') ?>">
+							  	<a href="<?= url('schpensa', ['params' => ['tag' => $tags[$filter]]]) ?>">
+							  		<?= $tags[$filter] ?>
+							  	</a>
+							  </li>
 							  <?php endforeach ?>
 							</ul>
 						</div>
-						<h2><?= $article->title()?></h2>
-					</a>
-					<article>
-					
+						<h2><a href="<?= $article->url() ?>" title="<?= $article->title() ?>"><?= $article->title()?></a></h2>
 			</li>
 			<?php endforeach?>
 	

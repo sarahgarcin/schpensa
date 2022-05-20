@@ -1,9 +1,12 @@
 <?php snippet('header') ?>
-<?php snippet('menu') ?>
 
-	<main>
-		<h1><?= $page->title()?></h1>
-		<?= $page->text()->kt()?>
+	<main class="home">
+		<h1>
+			<a href="<?= $site->find('schpensa')->url()?>" title="<?= $site->title()?>">
+				<?= $site->title()?>
+			</a>
+				
+		</h1>
 	</main>
 
 <?php snippet('footer') ?>

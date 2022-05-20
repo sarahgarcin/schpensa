@@ -19,9 +19,21 @@ ul, ol{margin:0; padding:0;}
 li{list-style:none;}
 a{color: #000;text-decoration: none;}
 // a:visited{color: $mainColor;}
-a:hover{color: $mainColor;}
+a:hover{background-color: $mainColor;}
 img {width: 100%;}
 figure{margin:0;}
+h2{
+  font-family: $titleFont;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: $menuMobile;
+  margin-bottom: $marginSmall;
+  margin-top: $marginBig;
+}
+p{
+  margin-top: $marginNormal; 
+  margin-bottom: $marginNormal;
+}
 
 // -------------- IMPORT TEMPlATES STYLES --------------
 @import "header.scss";
@@ -41,9 +53,68 @@ figure{margin:0;}
 main{
   padding: $pageMarginMobile;
   padding-top: 120px;
+  padding-bottom: 100px;
   &.row{margin:0;}
   p{
     font-size: $textMobile;
+  }
+}
+
+.home {
+  padding : 0;
+  width: 100%;
+  height: 100vh;
+  h1{
+    font-family: $titleFont;
+    font-size: $articleTitleMobile;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center; 
+    width: 100%;
+    top: 50%;
+    transform: translateY(-100%);
+  }
+}
+
+.default_inner{
+  padding: 0;
+  h1{
+    font-family: $titleFont;
+    font-size: $articleTitleMobile;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height:1.1;
+    margin-top: 0;
+  }
+}
+
+.easter-potato{
+  .easter-potato_potato{
+    font-size: 30px;
+    z-index: 300;
+    opacity: 0.1;
+    display: block; 
+    cursor: pointer;
+    position: absolute;
+  }
+  .easter-potato_text{
+    position: fixed; 
+    left:0;
+    bottom: -100%;
+    background: $mainColor;
+    width: 100%;
+    padding: $pageMarginMobile;
+    transition: all .5s ease;
+    h2{
+      margin:0;
+    }
+    p{margin:0;}
+  }
+
+  #toggle-potato:checked ~ .easter-potato_text {
+    bottom: 0;
+    transition: all .5s ease;
   }
 }
 
@@ -61,6 +132,7 @@ main{
   main{
     padding: $pageMargin;
     padding-top: 120px;
+    padding-bottom: 100px;
     p{
       font-size: $text;
     }

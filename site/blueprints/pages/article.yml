@@ -23,5 +23,9 @@ fields:
     type: checkboxes
     options: query
     query: page.parent.tags.toStructure
+  related:
+    label: Related articles
+    type: pages
+    query: page.siblings(false)
 
 

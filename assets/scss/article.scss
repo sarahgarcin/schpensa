@@ -1,9 +1,21 @@
 // -------------- MOBILE-FIRST ARTCLE --------------
-.article_sidebar{padding:0}
+.article_sidebar{
+	padding:0;
+	.filters{
+		ul{
+			li{
+				font-family: $titleFont;
+				font-size : $filtersMobile;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
 
 .author{
 	font-family: $titleFont;
 	font-size: $filtersMobile;
+	margin-bottom: $marginNormal;
 }
 
 .article{
@@ -14,6 +26,7 @@
 		font-weight: bold;
 		text-transform: uppercase;
 		line-height:1.1;
+		margin-top: 0;
 	}
 	.introduction{
 		font-family: $titleFont;
@@ -30,6 +43,35 @@
 	.credits{
 		margin-top: $marginBig;
 		p{font-size: $smallTextMobile;}
+	}
+}
+
+.recipe{
+	h2{text-align: center; margin-top: 0;}
+	p{text-align: center; }
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	margin-top: $marginBig;
+	margin-bottom: $marginBig;
+	padding-top: $marginBig;
+	padding-bottom: $marginNormal;
+}
+
+.related{
+	border-top: 2px solid #000;
+	margin-top: $marginBig;
+	padding-top : $marginNormal;
+	h2{
+		font-size: $menuMobile;
+		margin-top:0;
+	}
+	h3{
+		font-family: $titleFont;
+		font-weight: bold;
+		font-size: $menuMobile;
+		margin:0;
+		line-height: 1.1;
+		text-transform: capitalize;
 	}
 }
 
