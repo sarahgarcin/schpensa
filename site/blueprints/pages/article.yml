@@ -6,6 +6,7 @@ fields:
   cover:
     label: Image cover
     type: files
+    mode: single
   author:
     label: Author
     type: text

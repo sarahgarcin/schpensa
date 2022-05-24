@@ -33,17 +33,17 @@ fields:
             type: files
             query: page.images
       list:
-        name: Liste à déplier
-        label: Liste à déplier - {{title}} 
+        name: List
+        label: List - {{title}} 
         preview:
           snippet: blocks/list
         fields:
           title: 
-            label: Titre de la section
+            label: Title of the section (if needed)
             type: text
           elementlist: # The Builder Field can even be nested!
             type: builder
-            label: Élément de la liste
+            label: List elements
             columns: 1
             fieldsets:
               element:
@@ -52,7 +52,14 @@ fields:
                   title:
                     label: Title
                     type: text
+                  eventdate:
+                    label: Date
+                    type: date
+                  image:
+                    label: Image
+                    type: files
+                    mode: single
                   text:
-                    label: Texte
+                    label: Text
                     type: textarea
 

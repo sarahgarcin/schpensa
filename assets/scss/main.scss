@@ -30,6 +30,14 @@ h2{
   margin-bottom: $marginSmall;
   margin-top: $marginBig;
 }
+h3{
+  font-family: $titleFont;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: $textMobile;
+  margin-bottom: $marginSmall;
+  margin-top: $marginBig;
+}
 p{
   margin-top: $marginNormal; 
   margin-bottom: $marginNormal;
@@ -87,6 +95,21 @@ main{
     line-height:1.1;
     margin-top: 0;
   }
+  article{
+    border-bottom: 2px solid #000;
+    padding-bottom: $marginBig; 
+    margin-bottom: $marginBig;
+  }
+  .list{
+    .date{
+      margin:0;
+      margin-bottom: $marginSmall;
+      font-family: $titleFont;
+      font-size: $filtersMobile;
+    }
+    h1{font-size: $menuMobile; margin:0; margin-bottom: $marginSmall}
+    p{margin:0;}
+  }
 }
 
 .easter-potato{
@@ -129,6 +152,13 @@ main{
       display:block !important;
   }
 
+  h2{
+    font-size: $menu;
+  }
+  h3{
+    font-size: $text;
+  }
+
   main{
     padding: $pageMargin;
     padding-top: 120px;
@@ -137,6 +167,16 @@ main{
       font-size: $text;
     }
   }
+
+  .default_inner{
+    .list{
+      .date{
+        font-size: $filters;
+      }
+      h1{font-size: $menu;}
+    }
+  }
+
 }
 
 

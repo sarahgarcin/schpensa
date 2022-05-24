@@ -59,4 +59,5 @@
 		
 	</main>
 
+<?php snippet('easter') ?>
 <?php snippet('footer') ?>

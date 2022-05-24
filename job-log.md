@@ -9,6 +9,8 @@
 - ok - ajouter les contenus liés
 - url dans le texte ? 
 - question de la pagination
-- easter potato
+- ok - easter potato
+- manque des images ?
+- peaufiner pour que le site soit low energy 
 
 Les images doivent faire 600x400px et être enregistrée en jpg avec fond blanc

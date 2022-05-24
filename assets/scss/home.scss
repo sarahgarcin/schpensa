@@ -59,6 +59,9 @@
   		// filter: grayscale(100%);
   		// opacity: 1;
 		}
+		& ~ h2 a{
+			background: $mainColor;
+		}
 	}
 
 }

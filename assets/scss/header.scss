@@ -21,8 +21,8 @@ header{
 			font-size: $siteTitleMobile;
 			text-transform: uppercase;
 			letter-spacing: 2px;
+			a{color: #000; background: transparent;}
 		}
-		a{color: #000;}
 	}
 	.menu_btn{
 		display:block;
