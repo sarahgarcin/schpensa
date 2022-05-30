@@ -5,6 +5,6 @@ pages: false
 fields:
   text:
     label: Texte
-    type: markdown
+    type: textarea
 
 

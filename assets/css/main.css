@@ -9,7 +9,8 @@
 body {
   margin: 0 0px;
   font-size: 12px;
-  font-family: "PT Serif", serif; }
+  font-family: "PT Serif", serif;
+  line-height: 1.2; }
 
 ul, ol {
   margin: 0;
@@ -51,6 +52,12 @@ p {
   margin-top: 20px;
   margin-bottom: 20px; }
 
+figure figcaption {
+  font-size: 15px;
+  padding-top: 5px;
+  color: #3F3F3F;
+  font-style: italic; }
+
 header {
   width: 100%;
   max-width: 100%;
@@ -73,7 +80,8 @@ header {
       font-weight: bold;
       font-size: 30px;
       text-transform: uppercase;
-      letter-spacing: 2px; }
+      letter-spacing: 2px;
+      line-height: 1.2; }
       header .site_logo h1 a {
         color: #000;
         background: transparent; }
@@ -176,14 +184,14 @@ header {
   header {
     padding: 15px; }
     header .site_logo h1 {
-      font-size: 45px;
+      font-size: 40px;
       text-align: center; }
     header .menu_btn {
       right: 36px;
-      top: 33px; }
+      top: 30px; }
     header nav .main-nav_first-level {
       font-size: 25px;
-      padding: 33px; }
+      padding: 25px; }
       header nav .main-nav_first-level li {
         letter-spacing: 2px;
         margin: 0; } }
@@ -218,6 +226,10 @@ header {
         cursor: default; }
         .articles-list .filters ul li.active a:hover {
           color: #000; }
+      .articles-list .filters ul li:after {
+        content: "/"; }
+      .articles-list .filters ul li:last-child:after {
+        content: ""; }
 
 .articles-list h2 {
   font-family: "PT Sans", sans-serif;
@@ -226,6 +238,11 @@ header {
   margin: 0;
   line-height: 1.1;
   text-transform: capitalize; }
+
+.articles-list h3 {
+  margin: 5px 0;
+  font-size: 13px;
+  text-transform: none; }
 
 .articles-list .article-cover a {
   height: 100%;
@@ -249,14 +266,26 @@ header {
   .articles-list .filters ul li {
     font-size: 15px; }
   .articles-list h2 {
-    font-size: 25px; } }
+    font-size: 25px; }
+  .articles-list h3 {
+    font-size: 15px; } }
 
 .article_sidebar {
   padding: 0; }
-  .article_sidebar .filters ul li {
-    font-family: "PT Sans", sans-serif;
+  .article_sidebar .filters {
+    margin-bottom: 10px; }
+    .article_sidebar .filters ul li {
+      font-family: "PT Sans", sans-serif;
+      font-size: 13px;
+      text-transform: uppercase; }
+  .article_sidebar .download-pdf {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
     font-size: 13px;
-    text-transform: uppercase; }
+    font-family: "PT Sans", sans-serif; }
+    .article_sidebar .download-pdf a {
+      border-bottom: 1px solid #ebcf58; }
 
 .author {
   font-family: "PT Sans", sans-serif;
@@ -286,6 +315,8 @@ header {
     margin-top: 40px; }
     .article .credits p {
       font-size: 12px; }
+  .article p a {
+    background: #ebcf58; }
 
 .recipe {
   border-top: 2px solid #000;
@@ -315,6 +346,35 @@ header {
     line-height: 1.1;
     text-transform: capitalize; }
 
+article figure {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+article .row-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  article .row-images figure {
+    padding-right: 20px; }
+
+figure.small {
+  width: 33.3333%;
+  margin-left: auto;
+  margin-right: auto; }
+
+figure.medium {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; }
+
+figure.large {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto; }
+
 @media only screen and (min-width: 64em) {
   .article h1 {
     margin-top: 0;
@@ -324,6 +384,26 @@ header {
     font-size: 25px; }
   .article .credits p {
     font-size: 15px; } }
+
+@media print {
+  @page {
+    margin: 1.5cm;
+    size: A4; }
+  header {
+    display: none !important; }
+  main {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important; }
+  a {
+    background: transparent !important; }
+  .easter-potato {
+    display: none !important; }
+  p {
+    overflow: visible !important;
+    -webkit-column-break-inside: avoid !important;
+    -moz-column-break-inside: avoid !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important; } }
 
 .show-for-small-only {
   display: block; }
@@ -422,7 +502,7 @@ main {
     font-size: 20px; }
   main {
     padding: 36px;
-    padding-top: 120px;
+    padding-top: 100px;
     padding-bottom: 100px; }
     main p {
       font-size: 20px; }

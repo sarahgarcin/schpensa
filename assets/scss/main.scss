@@ -12,6 +12,7 @@ body{
 	margin: 0 0px; 
   font-size: 12px; 
   font-family: $font;
+  line-height: 1.2;
 }
 
 // -------------- RESET.CSS --------------
@@ -41,6 +42,13 @@ h3{
 p{
   margin-top: $marginNormal; 
   margin-bottom: $marginNormal;
+}
+
+figure figcaption{
+  font-size: $filters;
+  padding-top: 5px;
+  color: #3F3F3F;
+  font-style: italic;
 }
 
 // -------------- IMPORT TEMPlATES STYLES --------------
@@ -161,7 +169,7 @@ main{
 
   main{
     padding: $pageMargin;
-    padding-top: 120px;
+    padding-top: 100px;
     padding-bottom: 100px;
     p{
       font-size: $text;

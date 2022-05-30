@@ -23,6 +23,11 @@
 				  <?php endforeach ?>
 				</ul>
 			</div>
+			<?php if($pdf = $page->pdf()->toFile()):?>
+				<div class="download-pdf">
+					<a href="<?= $pdf->url()?>" title="<?= $pdf->name()?>" target="_blank">↓ Download PDF</a>
+				</div>
+			<?php endif; ?>
 		</section>
 		<section class="article col-xs-12 col-sm-9 col-md-8">
 			<h1><?= $page->title()?></h1>

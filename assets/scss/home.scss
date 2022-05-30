@@ -34,6 +34,12 @@
 					cursor: default;
 					a:hover{color: #000;}
 				}
+				&:after{
+					content: "/";
+				}
+				&:last-child:after{
+					content: "";
+				}
 			}
 		}
 	}
@@ -44,6 +50,11 @@
 		margin:0;
 		line-height: 1.1;
 		text-transform: capitalize;
+	}
+	h3{
+		margin: 5px 0;
+		font-size: $filtersMobile; 
+		text-transform: none;
 	}
 	.article-cover{
 		a{height: 100%; display:block;}
@@ -86,6 +97,10 @@
 		h2{
 			font-size: $menu;
 		}
+		h3{
+			font-size: $filters; 
+
+		}	
 	}
 }
 

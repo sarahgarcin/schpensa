@@ -2,6 +2,7 @@
 .article_sidebar{
 	padding:0;
 	.filters{
+		margin-bottom: $marginSmall;
 		ul{
 			li{
 				font-family: $titleFont;
@@ -9,6 +10,16 @@
 				text-transform: uppercase;
 			}
 		}
+	}
+	.download-pdf{
+		// a{background: $mainColor; padding: 5px;}
+		a{border-bottom: 1px solid $mainColor;}
+		margin-top: $marginNormal;
+		margin-bottom: $marginNormal;
+		text-transform: uppercase;
+		font-size : $filtersMobile;
+		font-family: $titleFont;
+
 	}
 }
 
@@ -44,6 +55,9 @@
 		margin-top: $marginBig;
 		p{font-size: $smallTextMobile;}
 	}
+	p a{
+		background: $mainColor;
+	}
 }
 
 .recipe{
@@ -75,6 +89,38 @@
 	}
 }
 
+article{
+	figure{
+		margin-top: $marginBig;
+		margin-bottom: $marginBig;
+	}
+	.row-images{
+		display: flex;
+		align-items: center;
+		figure{ padding-right: $marginNormal;}
+	}
+}
+
+
+
+figure.small{
+	width: 33.3333%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+figure.medium{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+figure.large{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 // -------------- DESKTOP ARTICLE --------------
 @media only screen and (min-width: 64em){
@@ -94,3 +140,25 @@
 
 
 }
+
+// -------------- PRINT ARTICLE --------------
+@media print{
+	@page {
+		margin: 1.5cm;
+		size: A4;
+	}
+	header{display:none !important;}
+	main{padding-top: 0 !important; padding-bottom: 0 !important;}
+	a{background: transparent !important;}
+	.easter-potato{display:none !important;}
+	p{
+		overflow: visible !important; 
+		break-inside: avoid !important;
+		page-break-inside: avoid !important;
+	}
+	// p{page-break-inside: avoid !important; break-inside: avoid !important;}
+
+}
+
+
+

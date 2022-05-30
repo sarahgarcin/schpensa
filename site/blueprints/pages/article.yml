@@ -7,18 +7,22 @@ fields:
     label: Image cover
     type: files
     mode: single
+  pdf:
+    label: PDF
+    type: files
+    mode: single
   author:
     label: Author
     type: text
   introduction:
     label: Introduction
-    type: markdown
+    type: textarea
   text:
     label: Texte
-    type: markdown
+    type: textarea
   credits:
     label: Credits
-    type: markdown
+    type: textarea
   filters:
     label: Filter(s)
     type: checkboxes

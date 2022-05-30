@@ -51,6 +51,7 @@
 							</ul>
 						</div>
 						<h2><a href="<?= $article->url() ?>" title="<?= $article->title() ?>"><?= $article->title()?></a></h2>
+						<h3><?= $article->author()?></h3>
 			</li>
 			<?php endforeach?>
 	
