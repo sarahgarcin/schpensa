@@ -1,0 +1,38 @@
+Title: Events
+
+----
+
+Mybuilder:
+
+- 
+  title: ""
+  elementlist:
+    - 
+      title: June Gathering at Naturlabor
+      eventdate: 2022-06-05
+      image:
+        - print.png
+      text: This is our first event !
+      titleinfo: ""
+      gallery: [ ]
+      pdfs: [ ]
+      _key: element
+      _uid: element_1652895726990_3746
+    - 
+      title: Harvest Festival
+      eventdate: 2022-07-23
+      image:
+        - 1-lane-qui-ecoute.jpg
+      text: This is our second event !
+      _key: element
+      _uid: element_1652895789640_126
+    - 
+      title: Walk
+      eventdate: 2022-07-24
+      image:
+        - 08.jpg
+      text: Description of the events
+      _key: element
+      _uid: element_1653121244587_945
+  _key: list
+  _uid: list_1652895722916_3662

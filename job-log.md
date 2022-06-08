@@ -1,6 +1,3 @@
-ce projet tourne en php 8.
-utiliser mamp pour le lancer en local
-
 nvm use 10 pour lancer gulp dev-watch
 
 
@@ -8,18 +5,41 @@ nvm use 10 pour lancer gulp dev-watch
 - Mettre à jour kirby (nécessite php 8)
 - Mettre à jour kirby builder
 - kirby autoresize plugin : https://getkirby.com/plugins/medienbaecker/autoresize
-- url dans le texte ? 
 - peaufiner pour que le site soit low energy 
 - dessin page d'accueil 
-- contenu eatser potato (doc partagé)
-- print article + bouton télécharger pdf
+- contenu easter potato (doc partagé)
+- ajouter ma biographie (google doc)
+- finir de rentrer les contenus dans collaborateurs
+- document de travail des contenus -> https://docs.google.com/document/d/1sRCwSE477Hmno5pShQ7f9mJrOQKAYoP2ylQ8VJarh8o/edit
+- mettre des images de pommes de terre en photo de profil pour chaque contributeur + peaufiner cette page  
+- traduire en allemand le texte en dur
 
 ## questions
-- question de la pagination sur schpensa
-- manque des images ? (dans les autres pages)
-- serveur / nom de domaine
+- serveur / nom de domaine (schpensa.ch)
+- Dans itw the BioGarten = il y a plusieurs images -> comment les mettre ?
+- Image Cueco 
+- Image Arosa Manuskript
+- Dans la version print des articles, quelles infos doivent apparaître? titre du site / description / url du site ? 
+- Manque d'images dans about
+- Besoin de visuels pour la page events
+- events - Exhibition at Naturlabor -> quelle date ?
+- article de Bettina sur les patates ? J'ai besoin d'avoir les images etc.
+
+## à dire / expliquer
+- Tagguer correctement les articles 
+- Mettre des articles en lien 
+- Les images doivent faire 600x400px et être enregistrée en jpg avec fond blanc
+- Détourage des images
 
 ## done
+- ok - bouton en/de
+- ok - print article
+- ok - ajouter des exemples dans Web Permaculture 
+- ok - url dans le texte ?
+- ok - ajouter le plan dans garden  
+
+
+- ok - bouton télécharger pdf
 - ok - Ajouter les typos
 - ok - faire le système de tags (via php et les urls)
 - ok - manque les tags dans l'article

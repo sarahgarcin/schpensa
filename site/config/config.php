@@ -9,5 +9,6 @@ Kirby Configuration For Localhost
 
 return [
   'environment' => 'local',
-  'debug'  => true
+  'debug'  => true,
+  'languages' => true,
 ];

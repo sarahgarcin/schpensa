@@ -12,6 +12,16 @@ header{
 	padding: $pageMarginMobile;
 	&.row{margin:0;}
 	a{text-decoration:none;}
+	.languages{
+		padding-left:0;
+		text-transform: uppercase; 
+		font-family: $titleFont;
+		font-weight: bold;
+		padding-top: 3px;
+		// li{padding-top: 3px;}
+		li.active a{background: $mainColor;}
+		a:hover{background: $mainColor;}
+	}
 	.site_logo{ 
 		padding:0;
 		h1{
@@ -121,9 +131,12 @@ header{
 @media only screen and (min-width: 64em){
 	header{
 		padding: 15px;
+		padding-left: $pageMargin;
+		.languages{
+			font-size: $filters;
+		}
 		.site_logo{
 			h1{font-size: $siteTitle; text-align: center;}
-			
 		}
 		.menu_btn{
 			right: $pageMargin;

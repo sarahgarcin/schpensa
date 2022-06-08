@@ -4,9 +4,9 @@
 		<h1>
 			<a href="<?= $site->find('schpensa')->url()?>" title="<?= $site->title()?>">
 				<?= $site->title()?>
-			</a>
-				
+			</a>	
 		</h1>
+		<div class="home_image-wrapper"></div>
 	</main>
 
 <?php snippet('footer') ?>

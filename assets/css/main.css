@@ -10,7 +10,7 @@ body {
   margin: 0 0px;
   font-size: 12px;
   font-family: "PT Serif", serif;
-  line-height: 1.2; }
+  line-height: 1.4; }
 
 ul, ol {
   margin: 0;
@@ -26,6 +26,9 @@ a {
 a:hover {
   background-color: #ebcf58; }
 
+p a {
+  border-bottom: 1px solid #ebcf58; }
+
 img {
   width: 100%; }
 
@@ -38,13 +41,23 @@ h2 {
   text-transform: uppercase;
   font-size: 17px;
   margin-bottom: 10px;
-  margin-top: 40px; }
+  margin-top: 40px;
+  letter-spacing: 0.02em; }
 
 h3 {
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  letter-spacing: 0.03em; }
+
+h4 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
   margin-bottom: 10px;
   margin-top: 40px; }
 
@@ -72,6 +85,16 @@ header {
     margin: 0; }
   header a {
     text-decoration: none; }
+  header .languages {
+    padding-left: 0;
+    text-transform: uppercase;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    padding-top: 3px; }
+    header .languages li.active a {
+      background: #ebcf58; }
+    header .languages a:hover {
+      background: #ebcf58; }
   header .site_logo {
     padding: 0; }
     header .site_logo h1 {
@@ -182,7 +205,10 @@ header {
 
 @media only screen and (min-width: 64em) {
   header {
-    padding: 15px; }
+    padding: 15px;
+    padding-left: 36px; }
+    header .languages {
+      font-size: 15px; }
     header .site_logo h1 {
       font-size: 40px;
       text-align: center; }
@@ -230,6 +256,9 @@ header {
         content: "/"; }
       .articles-list .filters ul li:last-child:after {
         content: ""; }
+
+.articles-list li {
+  margin-bottom: 40px; }
 
 .articles-list h2 {
   font-family: "PT Sans", sans-serif;
@@ -300,7 +329,8 @@ header {
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1.1;
-    margin-top: 0; }
+    margin-top: 0;
+    letter-spacing: 0.01em; }
   .article .introduction {
     font-family: "PT Sans", sans-serif;
     font-weight: bold; }
@@ -394,15 +424,17 @@ figure.large {
   main {
     padding-top: 0 !important;
     padding-bottom: 0 !important; }
+  .related {
+    display: none !important; }
   a {
     background: transparent !important; }
+  p a::after {
+    content: " (" attr(href) ") "; }
   .easter-potato {
     display: none !important; }
   p {
-    overflow: visible !important;
-    -webkit-column-break-inside: avoid !important;
-    -moz-column-break-inside: avoid !important;
-    break-inside: avoid !important;
+    overflow: visible !important; }
+  .recipe {
     page-break-inside: avoid !important; } }
 
 .show-for-small-only {
@@ -433,9 +465,17 @@ main {
     text-align: center;
     width: 100%;
     top: 50%;
-    -webkit-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    transform: translateY(-100%); }
+    -webkit-transform: translateY(-150%);
+    -ms-transform: translateY(-150%);
+    transform: translateY(-150%);
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000; }
+  .home h1:hover {
+    -webkit-text-fill-color: #000; }
+  .home a:hover {
+    background: transparent; }
 
 .default_inner {
   padding: 0; }
@@ -446,20 +486,33 @@ main {
     text-transform: uppercase;
     line-height: 1.1;
     margin-top: 0; }
+  .default_inner section {
+    margin-bottom: 40px;
+    margin-top: 40px; }
+    .default_inner section h2 {
+      border-bottom: 2px solid #000;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      margin-top: 0; }
   .default_inner article {
-    border-bottom: 2px solid #000;
     padding-bottom: 40px;
     margin-bottom: 40px; }
-  .default_inner .list .date {
+  .default_inner .list .list-date {
     margin: 0;
     margin-bottom: 10px;
     font-family: "PT Sans", sans-serif;
     font-size: 13px; }
-  .default_inner .list h1 {
-    font-size: 17px;
-    margin: 0;
-    margin-bottom: 10px; }
+  .default_inner .list .list-content-header {
+    padding-bottom: 10px; }
+    .default_inner .list .list-content-header h1 {
+      font-size: 17px;
+      margin: 0; }
+    .default_inner .list .list-content-header .list-subtitle {
+      font-style: italic;
+      margin-bottom: 20px; }
   .default_inner .list p {
+    margin: 0; }
+  .default_inner .list figure {
     margin: 0; }
 
 .easter-potato .easter-potato_potato {
@@ -500,13 +553,33 @@ main {
     font-size: 25px; }
   h3 {
     font-size: 20px; }
+  h4 {
+    font-size: 15px; }
   main {
     padding: 36px;
     padding-top: 100px;
     padding-bottom: 100px; }
     main p {
       font-size: 20px; }
-  .default_inner .list .date {
+  .default_inner .list .list-date {
     font-size: 15px; }
-  .default_inner .list h1 {
-    font-size: 25px; } }
+  .default_inner .list .list-content-header h1 {
+    font-size: 25px; }
+  .home h1 {
+    font-size: 90px;
+    left: 10%;
+    text-align: left;
+    width: 420px; }
+  .home .home_image-wrapper {
+    width: 80%;
+    margin-left: 20%;
+    height: 100%;
+    background: url("/assets/images/schpensa-close.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .home h1:hover ~ .home_image-wrapper {
+    background: url("/assets/images/schpensa-open.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; } }

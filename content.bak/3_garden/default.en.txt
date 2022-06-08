@@ -1,0 +1,31 @@
+Title: Garden
+
+----
+
+Mybuilder:
+
+- 
+  selectimages:
+    - ortsplan2021_a3_bearb4.jpg
+  _key: imagesgallery
+  _uid: imagesgallery_1654679403831_10572
+- 
+  title: ""
+  text: |
+    Where does our food come from? How does it grow? Are there regional options? We are used to everything being available everywhere, all the time. The Schpensa Garden in Arosa, wants to stimulate discussion around such questions.
+    
+    Our town garden makes the Schpensa story visible in the form of large plant pots throughout Arosa. Each pot forms part of a garden that is distributed throughout the town. These pots of potatoes will join the annual array of decorative flowers in pots throughout Arosa this year. Together, they are a way of expressing the ornamental potential of the potato, while illustrating the potential of the local production of alpine crops as well as the care that goes into food cycles. It will also allow all inhabitants to actively engage with this collective garden by taking care of their respective pot found near them.
+    
+    Since 1932, an experimental station has existed in Maran for the cultivation of potatoes and the foraging of meadows varieties in alpine altitudes. It is now maintained by Agroscope on behalf of the Confederation. Here the plants are tested and analysed for their properties. In the case of potatoes, the station is used to ensure the survival of the various varieties. This is made possible by the annually recurring cultivation. Our garden brings this type of practice into the public sphere in Arosa.
+    
+    Practically speaking, twenty large pots growing potatoes have been planted mid May 2022 and placed throughout the town of Arosa and are being overseen by local plant hosts throughout the summer of 2022. Thanks to the support of the municipality of Arosa and Agroscope, we were able to plant potato seedlings in 24 large pots with a capacity of 500 liters each. The pots contain ⅔ of humus and ⅓ of Misapor, a material that allows for the perfect drainage. Furthermore, holes are drilled into the pots in order to allow the water to spill out.
+    
+    Most of the species are supported by Pro Specie Rara, a Swiss Foundation that supports the biodiversity of cultivated plants within the country. From mid-June onwards, we will be able to watch the 15 different potato varieties apt to alpine altitudes grow and thereby get to know this plant, which has become such an important food for us. You will find the following species in our garden: Ackersegen, Praettisauer, Concordia, Charlotte, 8-Woche-Nüdeli, Lila Uetendorf, Erdgold, Huayacha, Eersteling, Blaue Ludiano, Parli, Bodenkraft, Blau-Gelbe Stein, Roeseler, Weltwunder.
+    
+    The plant pots are designed in collaboration with ETH students, and include QR codes leading to information about herbs as pioneers and the different aspects of the landscape, as well as a map with all the pots’ locations.
+    
+    To ensure that the plants get enough water and that other weeds do not get out of hand, several godparents are involved. The Schpensa garden project is a collaboration with the Gemeinde in Arosa and their town gardeners as well as the experimental station of Agroscope in Maran. We would like to thank them for their generous support!
+    
+    In autumn we will harvest our crop together and look back on the past summer with a small harvest festival.
+  _key: bodytext
+  _uid: bodytext_1653120890182_278

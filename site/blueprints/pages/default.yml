@@ -55,6 +55,9 @@ fields:
                   eventdate:
                     label: Date
                     type: date
+                  subtitle:
+                    label: Subtitle
+                    type: text
                   image:
                     label: Image
                     type: files

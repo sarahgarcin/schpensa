@@ -12,7 +12,7 @@ body{
 	margin: 0 0px; 
   font-size: 12px; 
   font-family: $font;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 // -------------- RESET.CSS --------------
@@ -21,6 +21,7 @@ li{list-style:none;}
 a{color: #000;text-decoration: none;}
 // a:visited{color: $mainColor;}
 a:hover{background-color: $mainColor;}
+p a{border-bottom: 1px solid $mainColor;}
 img {width: 100%;}
 figure{margin:0;}
 h2{
@@ -30,12 +31,22 @@ h2{
   font-size: $menuMobile;
   margin-bottom: $marginSmall;
   margin-top: $marginBig;
+  letter-spacing: 0.02em;
 }
 h3{
   font-family: $titleFont;
   font-weight: bold;
   text-transform: uppercase;
   font-size: $textMobile;
+  margin-bottom: $marginSmall;
+  margin-top: $marginBig;
+  letter-spacing: 0.03em;
+}
+h4{
+  font-family: $titleFont;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: $smallTextMobile;
   margin-bottom: $marginSmall;
   margin-top: $marginBig;
 }
@@ -89,8 +100,15 @@ main{
     text-align: center; 
     width: 100%;
     top: 50%;
-    transform: translateY(-100%);
+    transform: translateY(-150%);
+    // color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
   }
+  h1:hover{ -webkit-text-fill-color: #000;}
+  a:hover{background:transparent;}
+
 }
 
 .default_inner{
@@ -103,20 +121,40 @@ main{
     line-height:1.1;
     margin-top: 0;
   }
+  section{
+    // border-bottom: 2px solid #000;
+    margin-bottom: $marginBig;
+    margin-top: $marginBig;
+    h2{
+      border-bottom: 2px solid #000;
+      margin-bottom: $marginBig;
+      padding-bottom: $marginNormal;
+      margin-top:0;
+    }
+  }
   article{
-    border-bottom: 2px solid #000;
+    // border-bottom: 2px solid #000;
     padding-bottom: $marginBig; 
     margin-bottom: $marginBig;
   }
   .list{
-    .date{
+    .list-date{
       margin:0;
       margin-bottom: $marginSmall;
       font-family: $titleFont;
       font-size: $filtersMobile;
     }
-    h1{font-size: $menuMobile; margin:0; margin-bottom: $marginSmall}
+    .list-content-header{
+      // border-bottom: 1px solid #000;
+      padding-bottom: $marginSmall;
+       
+      h1{font-size: $menuMobile; margin:0;}
+      .list-subtitle{font-style: italic; margin-bottom: $marginNormal;}
+    }
+    // h2.list-title{text-align: center; font-size: $articleTitle;}
+    
     p{margin:0;}
+    figure{margin:0;}
   }
 }
 
@@ -166,6 +204,7 @@ main{
   h3{
     font-size: $text;
   }
+  h4{font-size: $smallText;}
 
   main{
     padding: $pageMargin;
@@ -178,10 +217,39 @@ main{
 
   .default_inner{
     .list{
-      .date{
+      .list-date{
         font-size: $filters;
       }
-      h1{font-size: $menu;}
+      .list-content-header{
+        h1{font-size: $menu;}
+      }
+      
+    }
+  }
+
+  .home{
+    h1{
+      font-size: 90px;
+      left:10%;
+      text-align: left;
+      width: 420px;
+    }
+    .home_image-wrapper{
+      width: 80%;
+      margin-left:20%;
+      height:100%;
+      background: url("/assets/images/schpensa-close.jpg");
+      background-size: contain; 
+      background-repeat: no-repeat;
+      background-position:center;
+      // background-position: 0px -20px;
+    }
+    h1:hover ~ .home_image-wrapper{
+      background: url("/assets/images/schpensa-open.jpg");
+      background-size: contain; 
+      background-repeat: no-repeat;
+      background-position:center;
+      // background-position: 0px -20px;
     }
   }
 

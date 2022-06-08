@@ -1,0 +1,20 @@
+Title: Easter Potatoes
+
+----
+
+Stories:
+
+- 
+  title: Easter Potato energy
+  text: This website use … = 30 potatoes
+- 
+  title: Easter Potato eating
+  text: >
+    Eating a potato is like moving your
+    mouse during 10 sec
+- 
+  title: Easter potato growing
+  text: >
+    Growing a potato needs 5L of water while
+    this website needs 15L of water (because
+    of Lithium baby)

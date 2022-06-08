@@ -1,4 +1,4 @@
-<div class="site_logo col-xs-10 col-md-offset-1">
+<div class="site_logo col-xs-10">
 		
 			<h1>
 				<a href="<?= $site->find('schpensa')->url()?>" title="<?= $site->title()?>">

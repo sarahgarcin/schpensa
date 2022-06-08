@@ -1,0 +1,51 @@
+Title: About
+
+----
+
+Mybuilder:
+
+- 
+  title: ""
+  text: |
+    *Schpensa* (i.e a pantry found in old Grisons houses where potatoes, flour, apples, etc. are stored) is a collective project exploring the history and potential future of the potato, as part of a long lineage of collaborations between humans and “kulturpflanzen”.Arosa, whose land was once traded for potatoes, has been placed as the starting point of an investigation of this plant’s past, present, and future potential. Schpensa takes the form of a potato planted pot garden, a frugal web platform functioning as a growing archive, a harvest food festival, rooted in an exchange between artists, scientists and Arosa locals.
+    
+    Our landscapes are in a very particular moment of rapid transformation with measurable changes in crop production, yield, and growth. Urbanization and globalization patterns have accelerated demand, causing large shifts in the supply chain infrastructure. Understanding our food and where it comes from allows us, on the one hand, to grasp our own historic past by questioning perceptions of what culture and identity can mean in a globalized world. On the other hand, it also sheds light on the role of agriculture in emitting greenhouse gasses, thus contributing to climatic transformation and directly affecting crop production, yield, and growth. Altogether, the food system is estimated to contribute 20-30% of all human-made greenhouse gas emissions. About 24% of that percentage is being emitted in farming/agriculture and land-use change practices, and approximately 5-10% stems from later stages in the food system: processing, packaging, transport, retail, preparation, and waste disposal.
+    
+    We started examining these dynamics in Arosa during our field research trips as part of the arvae «Kollektiv», starting in summer 2021. We were then connected with local experts and learned about the story of Arosa farmers having had to trade their land to Chur and other larger municipalities for food, including potatoes, during  times of distress and famine.
+    
+    *Schpensa* is a project that aims to bridge historical, scientific, traditional, and culinary knowledge, while daring to formulate a prediction about the potato's role and agricultural potential in the future. Schpensa provides insights about the history of the potato, and the following long journey from its origins to Arosa  it maps its production, transport routes, land-use history and policies, and describes its forms, taste, colors, as well as its continuous influence on the town of Arosa. Schpensa further explores how the food system provides us with the common ground necessary to consider identity and place, while addressing the importance of food security and biodiversity as one of the main ecological challenges of our time.
+  _key: bodytext
+  _uid: bodytext_1652895267936_1274
+- 
+  title: Web Permaculture
+  text: >
+    As with all web-platforms, Schpensa’s
+    growing archive implies energy
+    consumption and circulation of data. We
+    therefore asked ourselves how this
+    website could live up to our ambitions
+    for a carbon neutral project? And how we
+    could link the topic of sustainable
+    cultivation of local crops with the way
+    we cultivate our presence online? These
+    are questions that have been leading our
+    work with the online archive Schpensa.
+    Looking at simple measures we can take
+    to minimize the climate impact of our
+    online archive (reduction of image size,
+    no javascript, no image logo,
+    downloadable articles), we developed the
+    frugal web platform that you are
+    navigating today.
+  _key: bodytext
+  _uid: bodytext_1652895326712_1274
+- 
+  title: Contact
+  text: arvae
+  _key: bodytext
+  _uid: bodytext_1652895352946_1274
+- 
+  title: Sponsors
+  text: '(image: logos-partners.jpg)'
+  _key: bodytext
+  _uid: bodytext_1652895366548_1274
