@@ -142,15 +142,28 @@ figure.large{
 
 }
 
+.show-for-print{display:none;}
+
 // -------------- PRINT ARTICLE --------------
 @media print{
 	@page {
 		margin: 1.5cm;
 		size: A4;
 	}
+	.show-for-print{display: block;}
 	header{display:none !important;}
+	.print-header{
+		padding: 0 $marginNormal $marginNormal;
+		border-bottom: 1px solid #000;
+		margin-bottom: $marginNormal;
+		h1{
+			text-transform: uppercase; 
+			font-family: $titleFont;
+			margin:0;
+		}
+	}
 	main{padding-top: 0 !important; padding-bottom: 0 !important;}
-	.related{ display:none !important;}
+	.related, .download-pdf{ display:none !important;}
 	a{background: transparent !important;}
 	p a::after{
     content: " (" attr(href) ") ";
@@ -163,7 +176,17 @@ figure.large{
 	}
 	.recipe{page-break-inside: avoid !important;}
 	// p{page-break-inside: avoid !important; break-inside: avoid !important;}
-
+	.article h1{text-align: center !important;}
+	.filters, .author{ text-align: center;} 
+	.filters li{ 
+		display: inline-block !important;
+		&:after{
+			content: "/";
+		}
+		&:last-child:after{
+			content: "";
+		}
+	}
 }
 
 

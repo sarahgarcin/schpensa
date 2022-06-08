@@ -415,16 +415,29 @@ figure.large {
   .article .credits p {
     font-size: 15px; } }
 
+.show-for-print {
+  display: none; }
+
 @media print {
   @page {
     margin: 1.5cm;
     size: A4; }
+  .show-for-print {
+    display: block; }
   header {
     display: none !important; }
+  .print-header {
+    padding: 0 20px 20px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px; }
+    .print-header h1 {
+      text-transform: uppercase;
+      font-family: "PT Sans", sans-serif;
+      margin: 0; }
   main {
     padding-top: 0 !important;
     padding-bottom: 0 !important; }
-  .related {
+  .related, .download-pdf {
     display: none !important; }
   a {
     background: transparent !important; }
@@ -435,7 +448,17 @@ figure.large {
   p {
     overflow: visible !important; }
   .recipe {
-    page-break-inside: avoid !important; } }
+    page-break-inside: avoid !important; }
+  .article h1 {
+    text-align: center !important; }
+  .filters, .author {
+    text-align: center; }
+  .filters li {
+    display: inline-block !important; }
+    .filters li:after {
+      content: "/"; }
+    .filters li:last-child:after {
+      content: ""; } }
 
 .show-for-small-only {
   display: block; }

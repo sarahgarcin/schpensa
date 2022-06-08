@@ -6,6 +6,11 @@
 	<?php $tags[] = Str::slug($tag->title()); ?>
 <?php endforeach?>
 
+<div class="print-header show-for-print">
+	<h1><?= $site->title() ?></h1>
+	<a href="https://schpensa.ch" title="https://schpensa.ch">https://schpensa.ch</a>
+</div>
+
 	<main class="row">
 		<section class="article_sidebar col-xs-12 col-sm-2 col-md-2">
 			<div class="author">
