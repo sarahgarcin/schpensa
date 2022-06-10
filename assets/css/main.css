@@ -559,7 +559,8 @@ main {
   .easter-potato .easter-potato_text h2 {
     margin: 0; }
   .easter-potato .easter-potato_text p {
-    margin: 0; }
+    margin: 0;
+    font-size: 20px; }
 
 .easter-potato #toggle-potato:checked ~ .easter-potato_text {
   bottom: 0;
@@ -597,12 +598,12 @@ main {
     width: 80%;
     margin-left: 20%;
     height: 100%;
-    background: url("/assets/images/schpensa-close.jpg");
+    background: url("../images/schpensa-close.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
   .home h1:hover ~ .home_image-wrapper {
-    background: url("/assets/images/schpensa-open.jpg");
+    background: url("../images/schpensa-open.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; } }

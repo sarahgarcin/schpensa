@@ -7,23 +7,12 @@ nvm use 10 pour lancer gulp dev-watch
 - kirby autoresize plugin : https://getkirby.com/plugins/medienbaecker/autoresize
 - peaufiner pour que le site soit low energy 
 - contenu easter potato (doc partagé)
-- ajouter ma biographie (google doc)
-- finir de rentrer les contenus dans collaborateurs
-- document de travail des contenus -> https://docs.google.com/document/d/1sRCwSE477Hmno5pShQ7f9mJrOQKAYoP2ylQ8VJarh8o/edit
-- mettre des images de pommes de terre en photo de profil pour chaque contributeur + peaufiner cette page  
+- document de travail des contenus -> https://docs.google.com/document/d/1sRCwSE477Hmno5pShQ7f9mJrOQKAYoP2ylQ8VJarh8o/edit 
 - traduire en allemand le texte en dur
 - rentrer la version corrigée de saber bien
 
 ## questions
 - serveur / nom de domaine (schpensa.ch)
-- Dans itw the BioGarten = il y a plusieurs images -> comment les mettre ?
-- Image Cueco 
-- Image Arosa Manuskript
-- Dans la version print des articles, quelles infos doivent apparaître? titre du site / description / url du site ? 
-- Manque d'images dans about
-- Besoin de visuels pour la page events
-- events - Exhibition at Naturlabor -> quelle date ?
-- article de Bettina sur les patates ? J'ai besoin d'avoir les images etc.
 
 ## à dire / expliquer
 - Tagguer correctement les articles 
@@ -38,6 +27,8 @@ nvm use 10 pour lancer gulp dev-watch
 - ok - url dans le texte ?
 - ok - ajouter le plan dans garden  
 - ok - dessin page d'accueil 
+- ok - mettre des images de pommes de terre en photo de profil pour chaque contributeur + peaufiner cette page 
+- ok - finir de rentrer les contenus dans collaborateurs
 
 
 - ok - bouton télécharger pdf

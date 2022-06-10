@@ -178,7 +178,7 @@ main{
     h2{
       margin:0;
     }
-    p{margin:0;}
+    p{margin:0; font-size: $text}
   }
 
   #toggle-potato:checked ~ .easter-potato_text {
@@ -238,14 +238,14 @@ main{
       width: 80%;
       margin-left:20%;
       height:100%;
-      background: url("/assets/images/schpensa-close.jpg");
+      background: url("../images/schpensa-close.jpg");
       background-size: contain; 
       background-repeat: no-repeat;
       background-position:center;
       // background-position: 0px -20px;
     }
     h1:hover ~ .home_image-wrapper{
-      background: url("/assets/images/schpensa-open.jpg");
+      background: url("../images/schpensa-open.jpg");
       background-size: contain; 
       background-repeat: no-repeat;
       background-position:center;
