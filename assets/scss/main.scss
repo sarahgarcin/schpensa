@@ -77,6 +77,10 @@ figure figcaption{
 	display:none;
 }
 
+body[data-template="default"]{
+  main{max-width: 1600px; margin:auto;}
+}
+
 main{
   padding: $pageMarginMobile;
   padding-top: 120px;

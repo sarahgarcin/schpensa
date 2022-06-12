@@ -14,5 +14,5 @@ return [
         'download' => 'Download PDF',
         'related' => 'Related articles'
     ],
-    'url' => '/'
+    'url' => NULL
 ];

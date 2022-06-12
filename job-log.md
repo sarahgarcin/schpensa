@@ -9,6 +9,10 @@ nvm use 10 pour lancer gulp dev-watch
 - contenu easter potato (doc partagé)
 - document de travail des contenus -> https://docs.google.com/document/d/1sRCwSE477Hmno5pShQ7f9mJrOQKAYoP2ylQ8VJarh8o/edit 
 - rentrer la version corrigée de saber bien
+- préparer la mise en ligne 
+  + supprimer fichiers js 
+  + config production 
+  + production all.min.css
 
 ## questions
 - serveur / nom de domaine (schpensa.ch)
