@@ -8,7 +8,6 @@ nvm use 10 pour lancer gulp dev-watch
 - peaufiner pour que le site soit low energy 
 - contenu easter potato (doc partagé)
 - document de travail des contenus -> https://docs.google.com/document/d/1sRCwSE477Hmno5pShQ7f9mJrOQKAYoP2ylQ8VJarh8o/edit 
-- traduire en allemand le texte en dur
 - rentrer la version corrigée de saber bien
 
 ## questions

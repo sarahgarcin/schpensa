@@ -14,7 +14,7 @@
 	<main class="row">
 		<section class="article_sidebar col-xs-12 col-sm-2 col-md-2">
 			<div class="author">
-				<span><strong>Written by</strong></span><br>
+				<span><strong><?php echo t('written') ?></strong></span><br>
 				<span><?= $page->author()?></span>
 			</div>
 			<div class="filters">
@@ -30,7 +30,7 @@
 			</div>
 			<?php if($pdf = $page->pdf()->toFile()):?>
 				<div class="download-pdf">
-					<a href="<?= $pdf->url()?>" title="<?= $pdf->name()?>" target="_blank">↓ Download PDF</a>
+					<a href="<?= $pdf->url()?>" title="<?= $pdf->name()?>" target="_blank">↓ <?php echo t('download') ?></a>
 				</div>
 			<?php endif; ?>
 		</section>
@@ -52,7 +52,7 @@
 			if ($related->count() > 0):?>
 				<section class="related col-xs-12">
 					
-					  <h2>Related</h2>
+					  <h2><?php echo t('related') ?></h2>
 					  <ul class="articles-list row">
 					    <?php foreach($related as $article): ?>
 					    <li class="col-xs-6 col-sm-4 col-md-3">

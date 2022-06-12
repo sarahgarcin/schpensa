@@ -7,6 +7,7 @@ fields:
     label: Image cover
     type: files
     mode: single
+    required: true
   pdf:
     label: PDF
     type: files

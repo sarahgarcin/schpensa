@@ -154,8 +154,9 @@ main{
     // h2.list-title{text-align: center; font-size: $articleTitle;}
     
     p{margin:0;}
-    figure{margin:0;}
+    figure{margin:0; margin-bottom: $marginNormal}
   }
+
 }
 
 .easter-potato{
@@ -188,8 +189,38 @@ main{
 }
 
 
+// -------------- ONLY FOR MOBILE GENERAL --------------
+@media only screen and (max-width: 48em){
+  .default_inner{
+    .list{
+      figure.portrait{ flex-basis: 50%; max-width: 50%}
+    }
+    .list.collaborators{
+      figure{flex-basis: 50%; max-width: 50%}
+    }
+  }
+
+}
+
+// -------------- TABLET GENERAL --------------
+@media only screen and (min-width: 48em){
+  h2{
+    font-size: calc(#{$menuMobile} + 3px);
+  }
+  h3{
+    font-size: calc(#{$textMobile} + 3px);
+  }
+  h4{font-size: calc(#{$smallTextMobile} + 3px);}
+
+  main{
+    p{
+      font-size: calc(#{$textMobile} + 3px);
+    }
+  }
+}
+
 // -------------- DESKTOP GENERAL --------------
-@media only screen and (min-width: 64em){
+@media only screen and (min-width: 62em){
 
   .show-for-small-only{
       display:none !important;

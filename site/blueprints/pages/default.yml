@@ -52,9 +52,13 @@ fields:
                   title:
                     label: Title
                     type: text
-                  eventdate:
-                    label: Date
+                  startdate:
+                    label: Start date
                     type: date
+                  enddate:
+                    label: End date
+                    type: date
+                    help: This field can be left empty if there is only one date for the event
                   subtitle:
                     label: Subtitle
                     type: text

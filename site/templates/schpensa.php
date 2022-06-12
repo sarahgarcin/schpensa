@@ -8,7 +8,7 @@
 		<ul class="row center-md">
 			<li class="all <?= e(param('tag') == '', 'active') ?>">
 				<a href="<?= $page->url() ?>">
-					All
+					<?php echo t('all') ?>
 				</a>
 			</li>
 			<?php foreach($page->tags()->toStructure() as $tag):?>

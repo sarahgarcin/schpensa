@@ -126,6 +126,25 @@ header{
 
 }
 
+// -------------- TABLET GENERAL --------------
+@media only screen and (min-width: 48em){
+	header{
+		padding: 15px;
+		padding-left: 17px;
+	}
+	.languages{
+		font-size: calc(#{$filtersMobile} + 1px);
+	}
+	.site_logo{
+		h1{font-size: calc(#{$siteTitleMobile} + 5px); text-align: center;}
+	}
+	nav{
+	  .main-nav_first-level li{
+		  font-size: calc(#{$menuMobile} + 3px);
+		}
+	}
+}
+
 
 // -------------- DESKTOP HEADER --------------
 @media only screen and (min-width: 64em){

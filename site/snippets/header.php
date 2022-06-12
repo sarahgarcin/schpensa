@@ -32,7 +32,7 @@
   <meta property="og:title"        content="<?php echo $page->title()->html() ?>">
   <meta property="og:description"  content="<?php e( $page->text()->isNotEmpty(), $page->text()->excerpt(600), $site->description()->excerpt(600)) ?>">
   <meta property="og:type"         content="website">
-  <?php if ( $page->hasImages() && $image = $page->images()->sortBy('sort', 'asc')->first() ): ?>
+  <?php if ($image = $site->socialThumb()->toFile()): ?>
   <meta property="og:image"        content="<?php echo $image->resize(800, 800)->url() ?>">
   <?php endif; ?>
 
@@ -41,9 +41,23 @@
   <meta name="twitter:creator"     content="<?php echo $site->author()->html() ?>">
   <meta name="twitter:title"       content="<?php echo $page->title()->html() ?>">
   <meta name="twitter:description" content="<?php e( $page->text()->isNotEmpty(), $page->text()->excerpt(600), $site->description()->excerpt(600)) ?>">
-  <?php if ( $page->hasImages() && $image = $page->images()->sortBy('sort', 'asc')->first() ): ?>
+  <?php if ($image = $site->socialThumb()->toFile()): ?>
   <meta name="twitter:image"       content="<?php echo $image->resize(800, 800)->url() ?>">
   <?php endif; ?>
+
+  
+
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="apple-mobile-web-app-title" content="Schpensa">
+  <meta name="application-name" content="Schpensa">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+
 
 
 </head>

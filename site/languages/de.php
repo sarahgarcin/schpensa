@@ -9,7 +9,10 @@ return [
     ],
     'name' => 'German',
     'translations' => [
-
+        'all' => 'Alle', 
+        'written' => 'Geschrieben von', 
+        'download' => 'PDF herunterladen',
+        'related' => 'Ähnliche Artikel'
     ],
     'url' => NULL
 ];

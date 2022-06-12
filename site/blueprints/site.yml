@@ -25,8 +25,8 @@ tabs:
             size: small
       - width: 1/2
         fields:
-          logo: 
-            label: Logo du site
+          socialThumb: 
+            label: Image for social network
             type: files
             multiple: false
           author: 

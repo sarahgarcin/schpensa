@@ -203,6 +203,18 @@ header {
       transform: rotatez(-45deg);
       -webkit-transform-origin: 15%; }
 
+@media only screen and (min-width: 48em) {
+  header {
+    padding: 15px;
+    padding-left: 17px; }
+  .languages {
+    font-size: calc(13px + 1px); }
+  .site_logo h1 {
+    font-size: calc(30px + 5px);
+    text-align: center; }
+  nav .main-nav_first-level li {
+    font-size: calc(17px + 3px); } }
+
 @media only screen and (min-width: 64em) {
   header {
     padding: 15px;
@@ -345,8 +357,6 @@ header {
     margin-top: 40px; }
     .article .credits p {
       font-size: 12px; }
-  .article p a {
-    background: #ebcf58; }
 
 .recipe {
   border-top: 2px solid #000;
@@ -536,7 +546,8 @@ main {
   .default_inner .list p {
     margin: 0; }
   .default_inner .list figure {
-    margin: 0; }
+    margin: 0;
+    margin-bottom: 20px; }
 
 .easter-potato .easter-potato_potato {
   font-size: 30px;
@@ -568,7 +579,27 @@ main {
   -o-transition: all .5s ease;
   transition: all .5s ease; }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (max-width: 48em) {
+  .default_inner .list figure.portrait {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%; }
+  .default_inner .list.collaborators figure {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%; } }
+
+@media only screen and (min-width: 48em) {
+  h2 {
+    font-size: calc(17px + 3px); }
+  h3 {
+    font-size: calc(16px + 3px); }
+  h4 {
+    font-size: calc(12px + 3px); }
+  main p {
+    font-size: calc(16px + 3px); } }
+
+@media only screen and (min-width: 62em) {
   .show-for-small-only {
     display: none !important; }
   .hide-for-small-only {
