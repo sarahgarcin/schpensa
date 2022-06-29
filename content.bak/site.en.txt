@@ -2,23 +2,29 @@ Title: Schpensa
 
 ----
 
-Logo: - placeholder-logo-2.png
+Socialthumb:
+
+- patate-web.jpg
 
 ----
 
-Author: 
+Author: arvae
 
 ----
 
-Keywords: 
+Keywords: arvae, potatoes, arosa
 
 ----
 
-Description: 
+Description: Schpensa (i.e a pantry found in old Grisons houses where potatoes, flour, apples, etc. are stored) is a collective project exploring the history and potential future of the potato, as part of a long lineage of collaborations between humans and “kulturpflanzen”.Arosa, whose land was once traded for potatoes, has been placed as the starting point of an investigation of this plant’s past, present, and future potential. Schpensa takes the form of a potato planted pot garden, a frugal web platform functioning as a growing archive, a harvest food festival, rooted in an exchange between artists, scientists and Arosa locals.
 
 ----
 
 Copyright: 
+
+----
+
+Logo: 
 
 ----
 

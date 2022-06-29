@@ -31,6 +31,7 @@
 
 .article{
 	padding:0;
+	font-size: $textMobile; 
 	h1{
 		font-family: $titleFont;
 		font-size: $articleTitleMobile;
@@ -56,11 +57,14 @@
 		margin-top: $marginBig;
 		p{font-size: $smallTextMobile;}
 	}
+	ol, ul{margin-left: $marginNormal;}
+	ol li{list-style: decimal;}
+  ul li{list-style: disc;}
 }
 
 .recipe{
-	h2{text-align: center; margin-top: 0;}
-	p{text-align: center; }
+	h2, h3{text-align: center; margin-top: 0;}
+	p, li{text-align: center; }
 	border-top: 2px solid #000;
 	border-bottom: 2px solid #000;
 	margin-top: $marginBig;
@@ -80,7 +84,7 @@
 	h3{
 		font-family: $titleFont;
 		font-weight: bold;
-		font-size: $menuMobile;
+		font-size: $filtersMobile;
 		margin:0;
 		line-height: 1.1;
 		text-transform: capitalize;
@@ -123,6 +127,7 @@ figure.large{
 // -------------- DESKTOP ARTICLE --------------
 @media only screen and (min-width: 64em){
 	.article{
+		font-size: $text;
 		h1{
 			margin-top:0;
 			text-align: center;
@@ -133,6 +138,14 @@ figure.large{
 		}
 		.credits{
 			p{font-size: $smallText;}
+		}
+	}
+	.related{
+		h2{
+			font-size: $menu;
+		}
+		h3{
+			font-size: $menuMobile;
 		}
 	}
 

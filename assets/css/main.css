@@ -333,7 +333,8 @@ header {
   margin-bottom: 20px; }
 
 .article {
-  padding: 0; }
+  padding: 0;
+  font-size: 16px; }
   .article h1 {
     font-family: "PT Sans", sans-serif;
     font-size: 45px;
@@ -356,6 +357,12 @@ header {
     margin-top: 40px; }
     .article .credits p {
       font-size: 12px; }
+  .article ol, .article ul {
+    margin-left: 20px; }
+  .article ol li {
+    list-style: decimal; }
+  .article ul li {
+    list-style: disc; }
 
 .recipe {
   border-top: 2px solid #000;
@@ -364,10 +371,10 @@ header {
   margin-bottom: 40px;
   padding-top: 40px;
   padding-bottom: 20px; }
-  .recipe h2 {
+  .recipe h2, .recipe h3 {
     text-align: center;
     margin-top: 0; }
-  .recipe p {
+  .recipe p, .recipe li {
     text-align: center; }
 
 .related {
@@ -380,7 +387,7 @@ header {
   .related h3 {
     font-family: "PT Sans", sans-serif;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 13px;
     margin: 0;
     line-height: 1.1;
     text-transform: capitalize; }
@@ -415,14 +422,20 @@ figure.large {
   margin-right: auto; }
 
 @media only screen and (min-width: 64em) {
-  .article h1 {
-    margin-top: 0;
-    text-align: center;
-    font-size: 70px; }
-  .article h2 {
+  .article {
+    font-size: 20px; }
+    .article h1 {
+      margin-top: 0;
+      text-align: center;
+      font-size: 70px; }
+    .article h2 {
+      font-size: 25px; }
+    .article .credits p {
+      font-size: 15px; }
+  .related h2 {
     font-size: 25px; }
-  .article .credits p {
-    font-size: 15px; } }
+  .related h3 {
+    font-size: 17px; } }
 
 .show-for-print {
   display: none; }
@@ -485,7 +498,7 @@ main {
   padding-bottom: 100px; }
   main.row {
     margin: 0; }
-  main p {
+  main p, main li {
     font-size: 16px; }
 
 .home {
@@ -555,7 +568,7 @@ main {
 .easter-potato .easter-potato_potato {
   font-size: 30px;
   z-index: 300;
-  opacity: 0.1;
+  opacity: 0.2;
   display: block;
   cursor: pointer;
   position: absolute; }
@@ -617,7 +630,7 @@ main {
     padding: 36px;
     padding-top: 100px;
     padding-bottom: 100px; }
-    main p {
+    main p, main li {
       font-size: 20px; }
   .default_inner .list .list-date {
     font-size: 15px; }

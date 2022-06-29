@@ -8,16 +8,20 @@ nvm use 10 pour lancer gulp dev-watch
 - peaufiner pour que le site soit low energy 
 - contenu easter potato (doc partagé)
 - document de travail des contenus -> https://docs.google.com/document/d/1sRCwSE477Hmno5pShQ7f9mJrOQKAYoP2ylQ8VJarh8o/edit 
-- rentrer la version corrigée de saber bien
 - préparer la mise en ligne 
-  + supprimer fichiers js 
+  + ok - supprimer fichiers js 
   + config production 
-  + production all.min.css
+  + production all.min.css 
+
 
 ## questions
 - serveur / nom de domaine (schpensa.ch)
 
 ## à dire / expliquer
+- légendes
+- compresser pdf 
+- ne pas mettre toutes les images seulement les nécessaires
+
 - Tagguer correctement les articles 
 - Mettre des articles en lien 
 - Les images doivent faire 600x400px et être enregistrée en jpg avec fond blanc

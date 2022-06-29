@@ -9,10 +9,13 @@ Mybuilder:
   elementlist:
     - 
       title: June Gathering at Naturlabor
-      eventdate: 2022-06-30
+      startdate: 2022-06-30
+      enddate: ""
+      subtitle: ""
       image:
         - print.png
       text: 'On  30 June we will open an exhibition about the «Schpensa» and our sister project «Essen ist menschlich» at the Naturlabor in Arosa.'
+      eventdate: 2022-06-30
       titleinfo: ""
       gallery: [ ]
       pdfs: [ ]
@@ -20,7 +23,9 @@ Mybuilder:
       _uid: element_1652895726990_3746
     - 
       title: July
-      eventdate: 2022-07-02
+      startdate: 2022-07-02
+      enddate: ""
+      subtitle: ""
       image:
         - 1-lane-qui-ecoute.jpg
       text: >
@@ -28,19 +33,25 @@ Mybuilder:
         including exchanges with our team and
         our local collaborators about the
         project.
+      eventdate: 2022-07-02
       _key: element
       _uid: element_1652895789640_126
     - 
       title: 'Exhibition at Naturlabor:'
-      eventdate: 2022-07-24
+      startdate: 2022-06-30
+      enddate: 2022-07-30
+      subtitle: ""
       image:
-        - 08.jpg
+        - screen-shot-2022-06-08-at-15.21.30.png
       text: 'Open daily between 09.00 - 12.00 and 13.30 - 18.30.'
+      eventdate: 2022-06-30
       _key: element
       _uid: element_1653121244587_945
     - 
       title: October
-      eventdate: 2022-10-01
+      startdate: 2022-09-30
+      enddate: 2022-10-02
+      subtitle: ""
       image:
         - print.png
       text: >
@@ -49,6 +60,7 @@ Mybuilder:
         celebrated in a harvest festival with a
         dinner and public program. Details will
         followDetails will follow.
+      eventdate: 2022-10-01
       _key: element
       _uid: element_1654679630490_501
   _key: list

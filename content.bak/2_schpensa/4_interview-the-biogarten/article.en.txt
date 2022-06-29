@@ -24,6 +24,8 @@ Introduction:
 
 Text:
 
+(image: img_1016.jpeg class: medium)
+
 Hier wären unsere Fragen an euch:
 
 ### Wer seid ihr / was macht ihr.
@@ -40,13 +42,18 @@ Wir sind beide auf einem Bauernhof aufgewachsen. Unsere Eltern haben uns vorgele
 Es freut uns sehr, dass es uns gelungen ist mit einfachen Mitteln und ohne Subventionen einen Kleinbetrieb im Berggebiet aufzubauen. Wir sind überzeugt, dass es in den Dörfer wie im Schanfigg viele solche kleinen Betriebe braucht um der Abwanderung entgegen zu halten.
 Für uns stellt sich die Frage, ob und wie unser Beispiel von einer jungen Generation übernommen wird. Zweifellos sind viele begeistert von dem was wir machen, aber die arbeit- und zeitintensive Bewirtschaftung ist eine sehr grosse Hürde.
 
+(row:)
+(image: img_0577.jpeg)
+(image: img_0765.jpeg)
+(endrow:)
+
 ----
 
 Credits: 
 
 ----
 
-Filters: 0, 8, 12
+Filters: 0, 9, 2, 8, 7
 
 ----
 

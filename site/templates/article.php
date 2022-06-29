@@ -60,18 +60,8 @@
 									<?php $cover = $article->cover()->toFile()?>
 									<a href="<?= $article->url() ?>" title="<?= $article->title() ?>"><?= $cover->thumb() ?></a>
 								</div>
-								<div class="filters">
-									<ul class="row">
-									  <?php foreach ($article->filters()->split() as $filter): ?>
-									  <li class="<?= e($tags[$filter] == param('tag'), 'active') ?>">
-									  	<a href="<?= url('schpensa', ['params' => ['tag' => $tags[$filter]]]) ?>">
-									  		<?= $tags[$filter] ?>
-									  	</a>
-									  </li>
-									  <?php endforeach ?>
-									</ul>
-								</div>
 								<h2><a href="<?= $article->url() ?>" title="<?= $article->title() ?>"><?= $article->title()?></a></h2>
+								<h3><?= $article->author()?></h3>
 							</li>
 					    <?php endforeach ?>
 					  </ul>

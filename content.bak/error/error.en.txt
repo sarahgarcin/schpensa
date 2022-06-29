@@ -1,1 +1,15 @@
-Title: Erreur
+Title: Error
+
+----
+
+Mybuilder:
+
+- 
+  title: ""
+  text: |
+    This page doesn't exist…
+    …but you can have a gratin dauphinois instead
+    
+    (image: dauphinois-web.jpg)
+  _key: bodytext
+  _uid: bodytext_1654683885835_2600

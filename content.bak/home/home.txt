@@ -1,6 +1,0 @@
-Title: Accueil
-
-----
-
-Text: texte de l'accueil
-

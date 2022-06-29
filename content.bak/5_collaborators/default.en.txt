@@ -9,21 +9,24 @@ Mybuilder:
   elementlist:
     - 
       title: Tina Arpagaus
-      eventdate: ""
+      startdate: ""
+      enddate: ""
       subtitle: Hotel manager
       image:
-        - patate-web.jpg
+        - patato-1.jpg
       text: |
         Tina is the third generation to run the charming, family-owned chalet hotel Sonnenhalde and hosted the members of the «Kollektiv» during their stay in Arosa. A passionate hotelier, she was born and raised in Arosa and – as she has discovered during several stays abroad – cannot imagine a more beautiful place to live. She shares her fascination for the beauty of Arosa and her attachment to the local culture to her guests with dedication and charm. Tina joined the arvae team as local coordinator of our first «Kollektiv» in Arosa, mediating between the local citizens and stakeholders, «Kollektiv» members and our team.
         https://sonnenhalde-arosa.ch/
+      eventdate: ""
       _key: element
       _uid: element_1653124734825_1307
     - 
       title: Violeta Burckhardt
-      eventdate: ""
+      startdate: ""
+      enddate: ""
       subtitle: Landscape architect
       image:
-        - patate-web.jpg
+        - potato-2.jpg
       text: >
         Violeta studied architecture in Mexico
         City and urban design in Berlin and
@@ -41,19 +44,142 @@ Mybuilder:
         Grenzen des Gartens”, co-written with
         Günther Vogt, which investigates
         shifting ecosystems as a result of hum
+      eventdate: ""
       _key: element
       _uid: element_1653377167626_316
     - 
       title: Anne Laure Franchette
-      eventdate: ""
+      startdate: ""
+      enddate: ""
       subtitle: Artist and Researcher
       image:
-        - patate-web.jpg
+        - potato-3.jpg
       text: |
         Anne-Laure studied Fine Arts in Zurich and Art History in Paris. She currently works as research assistant at Luzern University within the department of Cultural Studies, with a focus on artistic research. Her work is concerned with questions of labour, representations and hierarchies of dignity (related to  beings, objects and practices), as well as strategies of self-organization and maintenance within artistic practices. She is interested in the intersections between botany and industry, between wilderness and civilized world, between authorized or sanctioned migration and spontaneous settlement. She uses techniques of displacing and retracing to question mapping and archiving practices. Amongst other collaborative ventures, she is part of the interdisciplinary study group (link: http://www.tetigroup.org text: TETI) (textures and experiences of trans-industriality). In 2013 she initiated both the (link: http://www.zurichartspaceguide.ch text: Zurich Art Space Guide), a free listing of artist run spaces, and (link: https://www.volumeszurich.ch text: VOLUMES), an organisation researching and showcasing art publishing practices.
         (link: http://annelaurefranchette.com text: www.annelaurefranchette.com)
+      eventdate: ""
       _key: element
       _uid: element_1654680307620_1863
+    - 
+      title: Sarah Garcin
+      startdate: ""
+      enddate: ""
+      subtitle: Chef, Graphic Designer and Programmer
+      image:
+        - potato-4.jpg
+      text: |
+        Sarah Garcin designs, develops, cooks, talks on the radio and draws. She is interested in collaborative writing practices, knowledge sharing, pedagogy, alternative publishing systems, open source software, wild gathering, multi-streaming, live and layering.
+        She designed and developed the Schpensa online platform.
+        https://sarahgarcin.com/
+      eventdate: ""
+      _key: element
+      _uid: element_1654883223561_370
+    - 
+      title: Tara Lasrado
+      startdate: ""
+      enddate: ""
+      subtitle: Co-Director arvae
+      image:
+        - potato-8.jpg
+      text: >
+        Tara is a producer and curator
+        particularly interested in working on
+        experimental, interdisciplinary,
+        collective, and non-institutional
+        collaborations for diverse publics. Her
+        practice-based experiences permeate
+        institutions, manifesting in public
+        spaces, off-spaces and open fields. She
+        has produced artistic projects
+        intersecting with climate science,
+        communications, social and political
+        activism, and pedagogy. Tara has
+        initiated numerous platforms for
+        emerging artists to present their works
+        to new audiences, mentored artists,
+        organised public space interventions,
+        curated festivals, summer schools, and
+        performance programs, and hosted artist
+        residencies. She works closely with
+        artists and collectives on land-based,
+        decolonial, and performative practices.
+        Her research on the role art plays in an
+        environmentally fragile context like
+        Bangladesh was published as input for
+        the OHCHR report on climate change,
+        culture, and cultural rights. Her focus
+        on production while developing support
+        systems and sustainable conditions for
+        artists drives her current works.
+      eventdate: ""
+      _key: element
+      _uid: element_1654883457200_370
+    - 
+      title: Alexandra Müller-Crepon
+      startdate: ""
+      enddate: ""
+      subtitle: Co-Director arvae
+      image:
+        - potato-5.jpg
+      text: >
+        Before joining forces with Tara to start
+        arvae, Alex built platforms and bridges
+        for artists and designers who work with
+        new technology and science. With an
+        academic background in international
+        relations, cultural management and
+        cultural policy in urban development,
+        she has always been interested in where
+        the arts meet other sectors, disciplines
+        and logics. She has dedicated her career
+        to holding space for free artistic
+        practices within these other structures
+        and fostering understanding for the
+        value of other disciplines collaborating
+        with the arts. She believes that we can
+        most effectively make this world a
+        better place by working together and
+        that every fruitful collaboration starts
+        and succeeds in honest human connection.
+        This is what she strives to contribute
+        to with arvae.
+      eventdate: ""
+      _key: element
+      _uid: element_1654883665826_370
+    - 
+      title: Bettina Tschuor
+      startdate: ""
+      enddate: ""
+      subtitle: >
+        Former Journalist for the Arosa Zeitung
+        and deputy manager of the Güterschuppen
+        restaurant in Arosa, now based in Zurich
+      image:
+        - potato-7.jpg
+      text: >
+        Raised in the eastern part of
+        Switzerland, Bettina has been living in
+        Arosa and working in gastronomy for the
+        past four years. As a Deputy Manager at
+        the Restaurant Güterschuppen she can
+        follow her passion for food and enjoy
+        the beautiful nature around the
+        Schanfigg valley. A summer job in a
+        mountain hut on 2300 m a.s.l. gave way
+        to her wish to work in gastronomy after
+        working at an international Grisons
+        energy company, receiving her
+        bachelor’s degree in business
+        administration, and gaining work
+        experience in the areas of human
+        resources development, marketing,
+        sponsoring, and events. In her spare
+        time she loves cooking with local and
+        seasonal ingredients from the market or
+        her parents’ garden.
+      eventdate: ""
+      _key: element
+      _uid: element_1654883793478_370
   _key: list
   _uid: list_1653124726264_1216
 - 
@@ -133,17 +259,20 @@ Mybuilder:
   elementlist:
     - 
       title: Migros Pioneer Fund
-      eventdate: ""
+      startdate: ""
+      enddate: ""
       subtitle: ""
       image: [ ]
       text: |
         The Migros Pioneer Fund looks for and supports ideas with social potential. It enables pioneering projects that break new ground and seek out forward-looking solutions. Its impact-oriented funding approach combines financial support with coaching services. The Migros Pioneer Fund is part of the Migros Group's social commitment and is enabled by the Migros Group with around CHF 15 million annually.
         For further information: (link: https://www.migros-engagement.ch/de/pionierfonds text: www.migros-pionierfonds.ch)
+      eventdate: ""
       _key: element
       _uid: element_1653377248109_883
     - 
       title: Arosa Tourism
-      eventdate: ""
+      startdate: ""
+      enddate: ""
       subtitle: ""
       image: [ ]
       text: >
@@ -156,11 +285,13 @@ Mybuilder:
         its utmost to maintain the destination
         as a small paradise in the Grisons
         mountains for both locals and guests.
+      eventdate: ""
       _key: element
       _uid: element_1653377259113_883
     - 
       title: Maran Garden
-      eventdate: ""
+      startdate: ""
+      enddate: ""
       subtitle: ""
       image: [ ]
       text: >
@@ -172,16 +303,19 @@ Mybuilder:
         Gefässpflanzen. Die 4000 Quadratmeter
         grosse Anlage kann während der
         Vegetationszeit frei besichtigt werden.
+      eventdate: ""
       _key: element
       _uid: element_1654680832748_1963
     - 
       title: Natur Labor
-      eventdate: ""
+      startdate: ""
+      enddate: ""
       subtitle: ""
       image: [ ]
       text: |
         Seit dem Sommer 2020 gibt es in Arosa ein Natur Labor. Sie erfahren in diesem Entdeckungszentrum mitten im Dorf Details zu «Arosa 2030», der Nachhaltigkeitsstrategie von Arosa und über das Arosa Bärenland und die geplante Bären Akademie.
         Zudem gibt ein Teammitglied der Arosa Tourismus Gästeinformation vor Ort Auskunft über Arosa und dem vielfältigen Angebot in der Region. Das Natur Labor ist ein erster Versuch die Thematik Regionalität, lokale Verbundenheit in Kombination mit nationalen Partner innovativ und zukunftsträchtig zu etablieren. Aller Anfang macht Spass und animiert zu wirkungsvollen Projekten.
+      eventdate: ""
       _key: element
       _uid: element_1654680855027_1963
   _key: list

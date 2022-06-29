@@ -5,16 +5,21 @@ Title: Easter Potatoes
 Stories:
 
 - 
-  title: Easter Potato energy
-  text: This website use … = 30 potatoes
-- 
-  title: Easter Potato eating
+  title: Easter Potato
   text: >
-    Eating a potato is like moving your
-    mouse during 10 sec
+    In one year, this website produces 580g
+    de CO2, or the equivalent of 4 corn
+    fries 🍟
 - 
-  title: Easter potato growing
+  title: 'Easter Potato '
+  text: 'In one year, this website produces 580g de CO2, or the equivalent of  6 potatoes'
+- 
+  title: Easter potato
   text: >
     Growing a potato needs 5L of water while
-    this website needs 15L of water (because
-    of Lithium baby)
+    this website needs 15L of water 💧
+- 
+  title: Easter potato
+  text: >
+    If this website was powered by potatoes,
+    it would need 250 potatoes
